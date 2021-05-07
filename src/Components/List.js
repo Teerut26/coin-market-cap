@@ -82,7 +82,7 @@ export class List extends Component {
 
   changeData = (id, newData) => {
     for (let index = 0; index < this.state.dataFromApi.length; index++) {
-      if (this.state.dataFromApi[index].id == id) {
+      if (this.state.dataFromApi[index].id === id) {
         this.state.dataFromApi[index].quotes[0].price = newData;
         this.forceUpdate();
         break;
@@ -205,7 +205,7 @@ export class List extends Component {
     };
     socket.onmessage = function (event) {
       const id = JSON.parse(event.data).d.cr.id
-      const price = JSON.parse(event.data).d.cr.p
+      // const price = JSON.parse(event.data).d.cr.p
       // this.changeData(id,price)
       console.log(id);
     };

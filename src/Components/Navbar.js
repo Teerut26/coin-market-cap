@@ -7,6 +7,7 @@ export class Navbar extends Component {
         <div className="navbar-brand">
           <a className="navbar-item" href="https://bulma.io">
             <img
+              alt="logo"
               src="https://s2.coinmarketcap.com/static/cloud/img/coinmarketcap_1.svg"
               height={200}
             />

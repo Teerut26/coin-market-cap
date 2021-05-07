@@ -55,6 +55,7 @@ export class Card extends Component {
           <figure className="media-left">
             <p className="image is-64x64">
               <img
+              alt="icon"
                 src={
                   "https://s2.coinmarketcap.com/static/img/coins/200x200/" +
                   this.props.id +
