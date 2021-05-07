@@ -1,0 +1,25 @@
+.container{
+    padding: 10px;
+}
+
+.media {
+    padding: 15px;
+}
+
+@font-face {
+    font-family: SemiBold;
+    src: url(./font/Inter-SemiBold-new.woff2);
+}
+
+*{
+    font-family: SemiBold;
+}
+
+
+.media-left {
+    margin-top: 3px;
+}
+
+/* .p-new{
+    margin-bottom: 5px;
+} */
